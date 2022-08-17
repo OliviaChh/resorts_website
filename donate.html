@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Egyptian Cat Empire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d93ecf915.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="bgded" style="background-image:url('image/donatebg.jpg');">
+
+<!-- Logo & bigpic & Navigation-->
+<header>
+    <div class="top_bar">
+        <a href="index.html"><img src="image/logo.png" alt="logo" width="280" height="150"></a>
+        <div class="mainnav"> 
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="visit.html">Visit</a>
+            <a href="adopt.html">Adopt</a>
+            <a href="donate.html">Donate</a>
+        </div>
+    </div>
+</header>
+<!-- Logo & Bigpic & Navigation-->
+
+<!-- Start Main -->
+<main class="donatepage">
+    <div class="faqform">
+        <h2 class="donateheading">Love start here ♡</h2>
+        <form>
+    <!---------------------------------------------------------------------------------------------------->
+        <div id="donatemoney">
+            <div class="btnmoney">
+                <button id="55" onclick="five()">55 $</button>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->
+            <div class="btnmoney">
+                <button id="95" onclick="nine()">95 $</button>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->
+            <div class="btnmoney">
+                <button id="150" onclick="ten()">150 $</button>
+            </div>
+        </div>
+    <!---------------------------------------------------------------------------------------------------->
+            <div>
+                <label for="money">Money <span>*</span></label>
+                <input type="text" name="money" id="money" value="" size="5" required>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="" size="22">
+            </div>
+            <label for="contry">Contry</label>
+    <!---------------------------------------------------------------------------------------------------->
+            <select id="contry" onchange="myFunction()">
+                <option></option>
+                <option>Taiwan</option>
+                <option>Australia</option>
+                <option>America</option>
+                <option>China</option>
+                <option>India</option>
+                <option>Japan</option>
+                <option>Korea</option>
+            </select>
+    <!---------------------------------------------------------------------------------------------------->   
+            <div>
+                <label for="email">Mail</label>
+                <input type="email" name="email" id="email" value="" size="22">
+            </div>
+    <!---------------------------------------------------------------------------------------------------->
+            <div>
+                <label for="credit">Credit Number <span>*</span></label>
+                <input type="text" name="credit" id="credit" value="" maxlength="16" size="16" required>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->
+            <div class="btnsum">
+                <button id="submit" onclick="submitBtnClick()">Submit</button>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->
+        </form>
+    </div>
+</main>
+<!-- End Main -->
+
+<!-- Start footer -->
+<footer>
+    <h1 class="footer_heading">CONTACT</h1>
+    <div class="footeritem">
+        <!--------------------------------------------------------------------------------------------------------------> 
+        <div class="footer_box">
+            <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location</h3>
+            </div>
+            <p>11 Abassya Square, Cairo, Egypt</p>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------->
+        <div class="footer_box">
+            <div class="icon">
+                <i class="far fa-clock"></i>
+                <h3>Open Time</h3>
+            </div>
+            <p>Mon-Friday: 10am to 6pm</p>
+            <p>Sat-Sun: 10am to 5pm</p>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------->
+        <div class="footer_box">
+            <div class="icon">
+                <i class="fas fa-phone"></i>
+                <h3>Reception</h3>
+            </div>
+            <p>+20(202)23-567-890</p>
+            <p>catempire@gmail.com</p>
+            <div class="icon">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------->
+    </div>
+</footer>
+<!-- Footer Section End -->
+  </div>
+</body>
+</html>

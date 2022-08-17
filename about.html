@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Egyptian Cat Empire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d93ecf915.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="bgded" style="background-image:url('image/aboutbg.jpg');">
+
+<!-- Logo & bigpic & Navigation-->
+<header>
+    <div class="top_bar">
+        <a href="index.html"><img src="image/logo.png" alt="logo" width="280" height="150"></a>
+        <div class="mainnav"> 
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="visit.html">Visit</a>
+            <a href="adopt.html">Adopt</a>
+            <a href="donate.html">Donate</a>
+        </div>
+    </div>
+</header>
+<!-- Logo & Bigpic & Navigation-->
+
+<!-- Start main body -->
+
+<main class="aboutmain"> 
+    <div class="aboutarticle">
+        <h2 class="heading">About the Resort</h2>
+        <br>
+        <p>All welcome People who are interested in history and ancient Egypt and want to have a deeper understanding of ancient Egypt. 
+            There are people who have cats and who love cats, or people who want to adopt cats. Or those who want to raise cats but conditions do not allow.</p>
+    </div>
+
+<!---- Start Hide list ----->
+    <div id="faqcon">
+    <h2 class="warning">Before visit <br>please check the FAQ below</h2>
+    <button class="menubtn" onclick="btnClick()">What are the rules? &emsp; <i class="fas fa-angle-double-down"></i></button>
+    <div class="dropdownbox">
+        <li>1.Do not bring your pets here</li>
+        <li>2.Do not hit or scare any cat in resort</li>
+        <li>3.Do not feed cat human foods</li>
+        <li>4.Do not wear perfume here</li>
+    </div>
+    <button class="menubtn" onclick="btnClick1()">What kind of Activity is in resort?&emsp; <i class="fas fa-angle-double-down"></i></button>
+    <div class="dropdownbox1">
+        <li>1.Volunteer</li>
+        <li>2.Yoga with Cats</li>
+        <li>3.kids Story Time</li>
+        <li>4.Family Mew-vie Times</li>
+    </div>
+    <button class="menubtn" onclick="btnClick2()">What kind of Room is in resort?&emsp; <i class="fas fa-angle-double-down"></i></button>
+    <div class="dropdownbox2">
+        <li>1.Family Room</li>
+        <li>2.Luxury Room</li>
+        <li>3.Stadard Room</li>
+        <li>4.Single Room</li>
+    </div>
+    <button class="menubtn" onclick="btnClick3()">What is open hours?&emsp; <i class="fas fa-angle-double-down"></i></button>
+    <div class="dropdownbox3">
+        <li>1.Mon-Friday: 10 am to 6 pm</li>
+        <li>2.Sat-Sun: 10 am to 5 pm</li>
+    </div>
+    </div>
+<!-- End Hide list-->
+<!-- End main body-->
+
+<!-- Start Q Form -->
+    <div class="faqform">
+        <h2 class="heading">ASK QUESTIONS</h2>
+        <form action="#" method="post">
+    <!---------------------------------------------------------------------------------------------------->
+            <div class="faqspace">
+                <label for="name">Name <span>*</span></label>
+                <input type="text" name="name" id="name" value="" size="22" required>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->   
+            <div class="faqspace">
+                <label for="email">Mail <span>*</span></label>
+                <input type="email" name="email" id="email" value="" size="22" required>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->    
+            <div class="faqspace">
+                <label for="comment">Your Questions</label>
+                <textarea name="comment" id="comment" cols="25" rows="10" ></textarea>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->
+            <div class="btnsum">
+                <button id="submit" onclick="faqsubmit()">Submit</button>
+            </div>
+    <!---------------------------------------------------------------------------------------------------->
+        </form>
+    </div>
+</main>
+<!-- End Q Form -->
+
+
+<!-- Start footer -->
+<footer>
+    <h1 class="footer_heading">CONTACT</h1>
+    <div class="footeritem">
+        <!--------------------------------------------------------------------------------------------------------------> 
+        <div class="footer_box">
+            <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location</h3>
+            </div>
+            <p>11 Abassya Square, Cairo, Egypt</p>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------->
+        <div class="footer_box">
+            <div class="icon">
+                <i class="far fa-clock"></i>
+                <h3>Open Time</h3>
+            </div>
+            <p>Mon-Friday: 10am to 6pm</p>
+            <p>Sat-Sun: 10am to 5pm</p>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------->
+        <div class="footer_box">
+            <div class="icon">
+                <i class="fas fa-phone"></i>
+                <h3>Reception</h3>
+            </div>
+            <p>+20(202)23-567-890</p>
+            <p>catempire@gmail.com</p>
+            <div class="icon">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------->
+    </div>
+</footer>
+<!-- End Footer -->
+
+</body>
+</html>
